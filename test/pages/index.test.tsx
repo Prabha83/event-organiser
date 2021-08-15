@@ -1,6 +1,5 @@
 import Home from "@pages/index";
 import { render } from "@testing-library/react";
-import "@testing-library/jest-dom";
 
 describe("Home page", () => {
   it("should display the title", () => {

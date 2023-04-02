@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { TextInput } from "@mantine/core";
 
-export default function Home() {
+export default function AboutPage() {
   return (
     <>
       <Head>
@@ -11,9 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <TextInput withAsterisk label="Name" placeholder="Full name" />
-      </main>
+      <main></main>
     </>
   );
 }
